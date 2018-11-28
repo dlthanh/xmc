@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.w980 {
+    width: 980px;
+    margin: 0 auto;
+}
+.w660 {
+    width: 660px;
+    margin: 0 auto;
+}
+.w450 {
+    width: 450px;
+    margin: 0 auto;
+}
+strong {
+    font-weight: 700;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.mag-sapo {
+    margin-top: 45px;
+    margin-bottom: 70px;
+}
+.mag-img,
+.magcc-img {
+    width: 100%
+}
+.mag-content {
+    font-family: 'NotoSerif', sans-serif;
+}
+.magc-txt {
+    font-size: 17px;
+    line-height: 26px;
+    margin-bottom: 35px;
+}
+.magc-img {
+    width: 100%;
+    margin-bottom: 35px;
+}
+.magc-img-left {
+    float: left;
+    display: block;
+    margin-left: -160px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 35px;
+}
+.magc-img-caption {
+    margin-bottom: 35px;
+}
+.magcc-caption {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #797979;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.flex a {
+
+}
+.magccl-img {
+    width: calc((100% - 5px)/2);
+}
+
+.mt100 {
+    margin-top: 100px;
+}
+.mt-60 {
+    margin-top: 60px;
+}
+.mt-70 {
+    margin-top: 70px;
+}
+.mb10 {
+    margin-bottom: 10px;
+}
+.mb100 {
+    margin-bottom: 100px;
+}
